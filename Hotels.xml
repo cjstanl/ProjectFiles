@@ -4,7 +4,7 @@
 
     <!-- Example from Project File -->
     <!-- rating is OPTIONAL attribute -->
-    <Hotel rating="4.2">
+    <Hotel Rating="4.2">
         <Name>Westin</Name>
         <!-- Can have more than 1 phone number -->
         <Phone>480-968-8885</Phone>
@@ -21,7 +21,7 @@
 
     <!-- Hotel 2 of 10 -->
     <!-- rating is OPTIONAL attribute -->
-    <Hotel rating="3.5">
+    <Hotel Rating="3.5">
         <Name>Hilton</Name>
         <!-- Can have more than 1 phone number -->
         <Phone>480-999-7776</Phone>
@@ -55,7 +55,7 @@
 
     <!-- Hotel 4 of 10 -->
     <!-- rating is OPTIONAL attribute -->
-    <Hotel rating="5.0">
+    <Hotel Rating="5.0">
         <Name>Riverside Suites</Name>
         <!-- Can have more than 1 phone number -->
         <Phone>928-382-1029</Phone>
@@ -71,7 +71,7 @@
 
     <!-- Hotel 5 of 10 -->
     <!-- rating is OPTIONAL attribute -->
-    <Hotel rating="2.0">
+    <Hotel Rating="2.0">
         <Name>Bikini Bottom Hotel</Name>
         <!-- Can have more than 1 phone number -->
         <Phone>119-192-1234</Phone>
@@ -104,7 +104,7 @@
 
     <!-- Hotel 7 of 10 -->
     <!-- rating is OPTIONAL attribute -->
-    <Hotel rating="4.9">
+    <Hotel Rating="4.9">
         <Name>Kansas Hotel</Name>
         <!-- Can have more than 1 phone number -->
         <Phone>728-289-1938</Phone>
@@ -120,7 +120,7 @@
 
     <!-- Hotel 8 of 10 -->
     <!-- rating is OPTIONAL attribute -->
-    <Hotel rating="2.5">
+    <Hotel Rating="2.5">
         <Name>Desert Oasis Inn</Name>
         <!-- Can have more than 1 phone number -->
         <Phone>480-872-1929</Phone>
@@ -137,7 +137,7 @@
 
     <!-- Hotel 9 of 10 -->
     <!-- rating is OPTIONAL attribute -->
-    <Hotel>
+    <Hotel> <!-- NO RATING USED HERE -->
         <Name>The Marriott</Name>
         <!-- Can have more than 1 phone number -->
         <Phone>602-333-0192</Phone>
@@ -153,7 +153,7 @@
 
     <!-- Hotel 10 of 10 -->
     <!-- rating is OPTIONAL attribute -->
-    <Hotel rating="5.0">
+    <Hotel Rating="5.0">
         <Name>Super Classy Hotels</Name>
         <!-- Can have more than 1 phone number -->
         <Phone>922-123-7939</Phone>
@@ -166,4 +166,5 @@
             <Zip>93823</Zip>
         </Address>
     </Hotel>
+
 </Hotels>
