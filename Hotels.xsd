@@ -8,7 +8,7 @@
                 <xs:complexType>
                     <xs:sequence>
                         <xs:element name="Name" type="xs:string"/>
-                        <xs:element name="Phone">
+                        <xs:element name="Phone" maxOccurs="unbounded">
                             <xs:simpleType>
                                 <xs:restriction base="xs:string">
                                     <xs:pattern value="[0-9]{3}-[0-9]{3}-[0-9]{4}"/> <!-- Used Regex for phone number -->
@@ -41,3 +41,4 @@
 </xs:element>
 
 </xs:schema>
+
