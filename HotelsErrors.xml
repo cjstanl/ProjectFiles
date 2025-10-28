@@ -3,8 +3,8 @@
 <Hotels> <!-- *** (1) INCORRECT ROOT TAG NAME *** -->
 
     <!-- Example from Project File -->
-    <!-- rating is OPTIONAL attribute -->
-    <Hotel rating="4.2">
+    <!-- Rating is OPTIONAL attribute -->
+    <Hotel Rating="4.2">
         <Name>Westin</Name>
         <!-- Can have more than 1 phone number -->
         <Phone>480-968-8885</Phone>
@@ -20,8 +20,8 @@
     </Hotel>
 
     <!-- Hotel 2 of 10 -->
-    <!-- rating is OPTIONAL attribute -->
-    <Hotel rating="3.5">
+    <!-- Rating is OPTIONAL attribute -->
+    <Hotel Rating="3.5">
         <Name>Hilton</Name>
         <!-- Can have more than 1 phone number -->
         <Phone>480-999-7776</Phone>
@@ -36,8 +36,8 @@
     </Hotel>
 
     <!-- Hotel 3 of 10 -->
-    <!-- rating is OPTIONAL attribute -->
-    <Hotel> <!-- NO RATING USED HERE -->
+    <!-- Rating is OPTIONAL attribute -->
+    <Hotel> <!-- NO Rating USED HERE -->
         <Name>Sunset Inn</Name>
         <!-- Can have more than 1 phone number *** (3) MISSING *** -->
         <!-- NearestAirport is REQUIRED attribute -->
@@ -51,8 +51,8 @@
     </Hotel>
 
     <!-- Hotel 4 of 10 -->
-    <!-- rating is OPTIONAL attribute -->
-    <Hotel rating="5.0">
+    <!-- Rating is OPTIONAL attribute -->
+    <Hotel Rating="5.0">
         <Name>Riverside Suites</Name>
         <!-- Can have more than 1 phone number -->
         <Phone>928-382-1029</Phone>
@@ -67,8 +67,8 @@
     </Hotel>
 
     <!-- Hotel 5 of 10 -->
-    <!-- rating is OPTIONAL attribute -->
-    <Hotel rating="2.0">
+    <!-- Rating is OPTIONAL attribute -->
+    <Hotel Rating="2.0">
         <Name>Bikini Bottom Hotel</Name>
         <!-- Can have more than 1 phone number -->
         <Phone>119-192-1234</Phone>
@@ -83,8 +83,8 @@
     </Hotel>
 
     <!-- Hotel 6 of 10 -->
-    <!-- rating is OPTIONAL attribute -->
-    <Hotel> <!-- NO RATING USED HERE -->
+    <!-- Rating is OPTIONAL attribute -->
+    <Hotel> <!-- NO Rating USED HERE -->
         <Name>Texas Hotel Chain</Name>
         <Name>Dallas Ranch Hotel</Name> <!-- *** (5) 2nd HOTEL NAME *** -->
         <!-- Can have more than 1 phone number -->
@@ -101,8 +101,8 @@
     </Hotel>
 
     <!-- Hotel 7 of 10 -->
-    <!-- rating is OPTIONAL attribute -->
-    <Hotel rating="4.9">
+    <!-- Rating is OPTIONAL attribute -->
+    <Hotel Rating="4.9">
         <Name>Kansas Hotel</Name>
         <!-- Can have more than 1 phone number -->
         <Phone>728-289-1938</Phone>
@@ -117,8 +117,8 @@
     </Hotel>
 
     <!-- Hotel 8 of 10 -->
-    <!-- rating is OPTIONAL attribute -->
-    <Hotel rating="2.5">
+    <!-- Rating is OPTIONAL attribute -->
+    <Hotel Rating="2.5">
         <Name>Desert Oasis Inn</Name>
         <!-- Can have more than 1 phone number -->
         <Phone>480-872-1929</Phone>
@@ -134,7 +134,7 @@
     </Hotel>
 
     <!-- Hotel 9 of 10 -->
-    <!-- rating is OPTIONAL attribute -->
+    <!-- Rating is OPTIONAL attribute -->
     <Hotel>
         <Name>The Marriott</Name>
         <!-- Can have more than 1 phone number -->
@@ -150,8 +150,8 @@
     </Hotel>
 
     <!-- Hotel 10 of 10 -->
-    <!-- rating is OPTIONAL attribute -->
-    <Hotel rating="5.0">
+    <!-- Rating is OPTIONAL attribute -->
+    <Hotel Rating="5.0">
         <Name>Super Classy Hotels</Name>
         <!-- Can have more than 1 phone number -->
         <Phone>922-123-7939</Phone>
@@ -166,5 +166,6 @@
     </Hotel>
 
 </Hotels>
+
 
 
