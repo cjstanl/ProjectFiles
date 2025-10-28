@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<xs:element name="Hotels">
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="Hotel" maxOccurs="unbounded"> <!-- Unbounded number of hotel elements -->
+                <xs:complexType>
+                    <xs:sequence>
+                        <xs:element name="Name" type="xs:string"/>
+                        <xs:element name="Phone">
+                            <xs:simpleType>
+                                <xs:restriction base="xs:string">
+                                    <xs:pattern value="[0-9]{3}-[0-9]{3}-[0-9]{4}"/> <!-- Used Regex for phone number -->
+                                </xs:restriction>
+                            </xs:simpleType>
+                        </xs:element>
+                        <xs:element name="Address">
+                            <xs:complexType>
+                                <xs:sequence>
+                                    <xs:element name="Number" type="xs:int"/>
+                                    <xs:element name="Street" type="xs:string"/>
+                                    <xs:element name="City" type="xs:string"/>
+                                    <xs:element name="State" type="xs:string"/>
+                                    <xs:element name="Zip" type="xs:int"/>
+                                </xs:sequence>
+                                <xs:attribute name="NearestAirport" type="xs:string" use="required"/> <!-- Required attribute for NearestAirport -->
+                            </xs:complexType>
+                        </xs:element>
+                    </xs:sequence>
+                    <xs:attribute name="Rating" type="xs:float" use="optional"/> <!-- Optional attribute for Rating -->
+                </xs:complexType>
+            </xs:element>
+        </xs:sequence>
+    </xs:complexType>
+    <!-- Making sure hotel name element is unique as mentioned in project instructions -->
+    <xs:unique name="UniqueHotelName">
+        <xs:selector xpath="Hotel"/>
+        <xs:field xpath="Name"/>
+    </xs:unique>
+</xs:element>
+
+</xs:schema>
