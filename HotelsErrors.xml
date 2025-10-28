@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<Hotels> <!-- *** (1) INCORRECT ROOT TAG NAME *** -->
+<Hotel> <!-- *** (1) INCORRECT ROOT TAG NAME *** -->
 
     <!-- Example from Project File -->
     <!-- Rating is OPTIONAL attribute -->
@@ -165,7 +165,8 @@
         </Address>
     </Hotel>
 
-</Hotels>
+</Hotel>
+
 
 
 
