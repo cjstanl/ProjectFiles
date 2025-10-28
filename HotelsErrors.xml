@@ -61,9 +61,9 @@
             <Number>12</Number>
             <Street>W. 9th St</Street>
             <City>Denver</City>
-            <State>CO</State>
+            <!-- No state tag for (4) An Address elect has no closing tag <- Is this what that means? -->
             <Zip>19381</Zip>
-        <!-- *** (4) MISSING ADDRESS CLOSING TAG *** -->
+        </Address>
     </Hotel>
 
     <!-- Hotel 5 of 10 -->
@@ -164,4 +164,5 @@
             <Zip>93823</Zip>
         </Address>
     </Hotel>
+
 </Hotels>
