@@ -8,21 +8,15 @@
                 <xs:complexType>
                     <xs:sequence>
                         <xs:element name="Name" type="xs:string"/>
-                        <xs:element name="Phone" maxOccurs="unbounded"> <!-- Unbounded number of phone number elements -->
-                            <xs:simpleType>
-                                <xs:restriction base="xs:string">
-                                    <xs:pattern value="[0-9]{3}-[0-9]{3}-[0-9]{4}"/> <!-- Used Regex for phone number -->
-                                </xs:restriction>
-                            </xs:simpleType>
-                        </xs:element>
+                        <xs:element name="Phone" type="xs:string" maxOccurs="unbounded"/> <!-- Unbounded number of phone number elements -->
                         <xs:element name="Address">
                             <xs:complexType>
                                 <xs:sequence>
-                                    <xs:element name="Number" type="xs:int"/>
+                                    <xs:element name="Number" type="xs:string"/>
                                     <xs:element name="Street" type="xs:string"/>
                                     <xs:element name="City" type="xs:string"/>
                                     <xs:element name="State" type="xs:string"/>
-                                    <xs:element name="Zip" type="xs:int"/>
+                                    <xs:element name="Zip" type="xs:string"/>
                                 </xs:sequence>
                                 <xs:attribute name="NearestAirport" type="xs:string" use="required"/> <!-- Required attribute for NearestAirport -->
                             </xs:complexType>
@@ -33,13 +27,6 @@
             </xs:element>
         </xs:sequence>
     </xs:complexType>
-    <!-- Making sure hotel name element is unique as mentioned in project instructions -->
-    <xs:unique name="UniqueHotelName">
-        <xs:selector xpath="Hotel"/>
-        <xs:field xpath="Name"/>
-    </xs:unique>
 </xs:element>
 
 </xs:schema>
-
-
